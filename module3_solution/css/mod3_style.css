@@ -1,0 +1,219 @@
+
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** header **/
+
+#header-nav{
+	background-color: #f6b316;
+	border: 0;
+	border-radius:0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link{
+	text-decoration: none;
+}
+
+
+.text-center{
+	color: #000;
+	text-transform: capitalize;
+	font-size: 40px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+
+}
+
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+
+
+
+
+
+
+.content {
+		margin-top: 30px;
+		padding-right: 50px;
+		padding-left: 50px;
+		padding-bottom: 50px;
+		padding-top: 0;
+		height: 1000px;
+		background-color: #f6b316;
+		margin-top: 20px;
+		margin-right: 40px;
+		margin-left: 40px;
+		margin-bottom: 40px;
+		
+
+}
+
+#first{
+	position: relative;
+}
+
+
+#first span{
+
+	font-size: 30px;
+	color: black;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	text-weight: bold;
+	
+}
+
+
+
+
+
+
+
+/*   media queries  */
+
+/*  extra small devices  */
+
+@media (max-width: 767px){
+
+
+		/*    header   */
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;         /* 1vw is 1% of viewport width */
+	}
+
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.content p{
+		font-family: Georgia, serif;
+		color: black;
+		font-size: 17px;
+		padding-top: 60px;
+
+
+	}
+
+}
+
+	
+
+
+
+
+/* small devices */
+@media (min-width: 768px) and (max-width: 991px){
+
+	
+
+	.content p{
+		font-family: Georgia, serif;
+		color: black;
+		font-size: 17px;
+		padding-top: 60px;
+
+	}
+
+
+	
+}
+
+
+
+
+
+
+
+/* medium devices */
+@media (min-width: 992px) and (max-width: 1199px){
+
+	
+	.content p{
+		font-family: Georgia, serif;
+		color: black;
+		font-size: 17px;
+		padding-top: 60px;
+
+	}
+
+
+}
+
+
+
+
+
+
+/*  large devices */
+
+@media (min-width:1200px ){
+
+	
+
+
+	.content p{
+		font-family: Georgia, serif;
+		color: black;
+		font-size: 17px;
+		padding-top: 60px;
+
+	}
+
+
+
+}
